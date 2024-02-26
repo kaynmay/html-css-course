@@ -14,4 +14,4 @@
   - Then the body elements (`<body></body>`) which are for things that are visible in the browser window
 - Comment in HTML with `<!--` and close with `-->`
 - Use `<strong></strong>` to make text bold instead of `<b></b>`
-- Use `<em></em>` to make text bold instead of `<i></i>`
+- Use `<em></em>` to make text italic instead of `<i></i>`
