@@ -5,13 +5,30 @@
 - HTML consists of elements that describe different types of content
   - Paragraphs, links, headings, images, etc
   - Made up of opening tag (`<p>`), content, and the ending tag (`</p>`)
-  - If an element has no content the ending tag is omitted
+  - If an element has no content the ending tag is omitted, but you end the opening tag with a slash `<img />`
 - Basic structure of an HTML page
   - `<!DOCTYPE html>` goes at the top of the file and tells the browser that this document uses HTML
   - Next is the html tags, `<html></html>`
+    - The opening html tag should specify the language (`lang="en"`)
   - Then the head elements (`<head></head>`) which are for things that are not visible in the browser window
     - Page title, information about the page, link to CSS, etc
+    - Specify the character set with `<meta charset="UTF-8" />`
   - Then the body elements (`<body></body>`) which are for things that are visible in the browser window
 - Comment in HTML with `<!--` and close with `-->`
 - Use `<strong></strong>` to make text bold instead of `<b></b>`
 - Use `<em></em>` to make text italic instead of `<i></i>`
+- Lists in HTML
+  - Ordered (numbered) lists use the `<ol>` tag
+  - Unordered (bulleted) lists use the `` tag
+  - For both types, use the `<li>` tag for list items
+- Attributes are pieces of data that we can use to describe elements
+- Images use the `<img>` tag
+  - There is a src attribute to say where the file is located
+  - There is an alt attribute which is alt text
+    - If the file can't be found/loaded the alt text will show instead
+  - There are height and width attributes to specify the size of the image
+- Links use the `<a>` (anchor) tag
+  - There is an href attribute to specify the URL
+    - You can use `href="#"` if you want a link that doesn't go anywhere
+  - There is a target attribute to specify the behavior when you click on the link
+    - `target="_blank"` means to open the link in a new tab
